@@ -1,0 +1,51 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Large model files (too big for GitHub — use Git LFS or share separately)
+models/best_model.h5
+models/final_model.h5
+models/transfer_learning_final.h5
+
+# Keep these tracked (small enough)
+# models/transfer_learning_best.h5   ← 28.7 MB — use Git LFS
+# models/garbagesort_int8.tflite     ← 3.1 MB — OK to track
+
+# Streamlit cache
+.streamlit/secrets.toml
+
+# Jupyter
+*.ipynb_checkpoints/
+.ipynb_checkpoints
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+
+# Temp/test files
+test_*.pdf
+test_*.jpg
+*.tmp
+
+# Dataset (too large for GitHub — download separately)
+dataset/
+split_dataset/
+
+# Outputs (generated files — reproducible)
+# outputs/ ← keep for reference
+
+# Logs
+*.log
